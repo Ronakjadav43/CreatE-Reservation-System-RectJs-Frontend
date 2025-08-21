@@ -1,0 +1,28 @@
+.basic-info-box {
+  width: 100%;
+  max-width: 1000px;
+  padding: 15px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin: auto;
+  .box-inner {
+    width: 100%;
+    display: flex;
+    .input-box {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      padding: 0 5px;
+      p {
+        font-weight: bold;
+      }
+    }
+  }
+  .up-btn {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+}

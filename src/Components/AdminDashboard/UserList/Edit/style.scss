@@ -1,0 +1,102 @@
+.user-form-dailog {
+  h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  p {
+    font-weight: bold;
+  }
+
+  .add-btn {
+    background: #ef5350;
+    text-transform: uppercase;
+    height: 36px;
+    background: #ef5350;
+    border-radius: 4px;
+    padding: 0px 16px;
+    gap: 10px;
+    font-weight: 500;
+
+    &:hover {
+      background: #ef5350ed;
+    }
+  }
+
+  .close-btn {
+    color: #ef5350;
+    background: #ffffff;
+    text-transform: uppercase;
+    border-color: rgba(62, 39, 35, 0.2);
+    height: 36px;
+    border-radius: 4px;
+    padding: 0px 16px;
+    gap: 10px;
+    font-weight: 500;
+
+    &:hover {
+      background: #ef5350;
+      border-color: rgba(62, 39, 35, 0.2);
+    }
+  }
+
+  .switch span {
+    color: #ef5350;
+
+    .MuiSwitch-track {
+      background-color: #ef535096;
+    }
+  }
+
+  .alert-dialog-slide-description {
+    p {
+      margin: 0;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: rgba(62, 39, 35, 0.54);
+    }
+  }
+
+  p {
+    &#alert-dialog-slide-description {
+      font-weight: 400 !important;
+      color: #616161;
+    }
+  }
+}
+
+.edit-user-list-main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  .edit-user-list {
+    display: flex;
+    flex-direction: column;
+    width: 47.7%;
+
+    &:nth-child(1) {
+      width: 100%;
+    }
+
+    &:nth-child(7) {
+      width: 100%;
+
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: rgba(62, 39, 35, 0.54);
+      }
+    }
+  }
+}
+
+.hello > div > div {
+  max-width: 850px !important;
+}

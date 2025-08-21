@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  .header-chip {
+    font-family: "Roboto", sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: rgba(62, 39, 35, 0.87);
+    padding: 0 8px;
+    gap: 5px;
+    svg {
+      font-size: 16px;
+    }
+    .status-btn{
+       width: 100%;
+       padding: 6px 10px;
+    }
+  }
+}

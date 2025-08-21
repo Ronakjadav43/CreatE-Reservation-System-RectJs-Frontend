@@ -1,0 +1,23 @@
+.uploaded-file {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+   
+
+    .upload-inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 99px;
+        height: 40px;
+        padding: 5px;
+        box-shadow: 0 0 5px 0px #ff5722;
+        border-radius: 5px;
+    }
+    .shadow-hide {
+        box-shadow: unset !important;
+     }
+
+}

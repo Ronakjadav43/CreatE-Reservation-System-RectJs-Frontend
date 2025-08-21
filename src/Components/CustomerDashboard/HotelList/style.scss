@@ -1,0 +1,321 @@
+.hotellist-layout {
+  display: flex;
+  padding: 20px 50px;
+  flex-direction: column;
+  align-items: center;
+
+  .hotellist-main {
+    display: flex;
+    // flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    max-width: 800px;
+    overflow: auto;
+    height: calc(100vh - 280px);
+    gap: 30px;
+
+    .hotelist-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      width: 200px;
+      min-height: 250px;
+      height: 250px;
+      padding: 10px;
+
+      // .hotelist-card-inner {
+      //   display: flex;
+      //   align-items: center;
+      //   gap: 20px;
+
+      .hotel_image {
+        display: block;
+        width: 200px;
+        height: 150px;
+
+        img {
+          display: block;
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      h2 {
+        margin: 0;
+        width: 100%;
+      }
+
+      // }
+
+
+      Button {
+        width: 100%;
+      }
+
+      Button:hover {
+        color: #5C231C;
+        background-color: #DBA47480 !important;
+      }
+    }
+  }
+}
+
+
+.logo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.reservation-layout {
+  .hotels {
+    display: flex;
+    gap: 30px;
+
+    .hotel-card:hover {
+      cursor: pointer;
+      background-color: #dba47480 !important;
+    }
+  }
+}
+
+.active {
+  background-color: #dba47480 !important;
+  cursor: pointer;
+}
+
+.reservation {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.all-cards {
+  padding: 0 !important;
+  overflow: auto;
+  height: calc(100vh - 352px);
+  max-height: 580px;
+  min-height: 460px;
+
+  .all-cards-inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    padding: 0 35px;
+
+    .cards {
+      width: 390px;
+      height: 450px;
+      box-shadow: unset;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .card-img {
+        height: 312px;
+        display: block;
+        border-radius: 10px;
+        object-fit: unset;
+
+      }
+
+      .card-header-text {
+        display: flex;
+        flex-grow: 1;
+        font-size: 21px;
+        font-weight: 600;
+        color: #000;
+        margin: 0;
+      }
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      padding: 0 !important;
+
+      svg {
+        font-size: 22px;
+        fill: #B7B6B6;
+      }
+
+      span {
+        font-size: 17px;
+        padding-left: 10px;
+        font-weight: 500;
+        color: #B7B6B6;
+      }
+    }
+  }
+
+  // .footer-btn {
+  //   Button {
+  //     width: 127px;
+  //     height: 50px;
+  //     font-size: 16px;
+  //     font-weight: 500;
+
+
+
+  //     &:nth-child(2) {
+  //       max-width: 175px !important;
+  //       min-width: 127px !important;
+  //       width: auto;
+  //       height: 50px !important;
+  //       font-weight: 600 !important;
+
+  //     }
+
+  //   }
+
+  //   Button:hover {
+  //     color: #5c231c;
+  //     background-color: #dba47480 !important;
+  //   }
+  // }
+}
+
+.tabs>div>div>div {
+  justify-content: center;
+  gap: 22px;
+
+  button {
+    width: 180px;
+    height: 60px;
+    border: 1px solid #5c231c;
+    border-radius: 8px;
+    color: #5c231c;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .Mui-selected {
+    color: #5c231c !important;
+    font-weight: 600 !important;
+    background-color: #edd2ba !important;
+  }
+}
+
+.tabs {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  background-color: #fff;
+  padding-bottom: 50px;
+}
+
+.tabs>div>div>span {
+  display: none;
+}
+
+// .Mui-selected {
+//   color: #fff !important;
+//   font-weight: 600 !important;
+//   background-color: #5c231c !important;
+// }
+
+Mui-selected {
+  color: #5c231c !important;
+  font-weight: 600 !important;
+  background-color: #dba47480 !important;
+}
+
+.event-description {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: 500;
+
+  svg {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .tabs {
+    padding-bottom: 40px;
+  }
+
+  .tabs>div>div>div {
+    gap: 10px;
+    max-width: 326px;
+    margin: auto;
+
+
+    button {
+      width: 158px;
+      height: 40px;
+      font-size: 12px;
+    }
+
+  }
+
+  .all-cards {
+    height: calc(100vh - 250px);
+    min-height: unset;
+
+    .all-cards-inner {
+      gap: 10px;
+      padding: 0;
+
+      .cards {
+        width: 32%;
+        min-width: 158px;
+        height: 218px;
+        box-shadow: unset;
+
+        @media only screen and (min-width: 375px) and (max-width: 550px) {
+          width: 48%;
+        }
+
+        .MuiCardMedia-img {
+          width: 100%;
+          height: 126px;
+          min-height: 126px;
+          display: block;
+        }
+
+        .card-header-text {
+          font-size: 14px;
+          line-height: 28px;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+          width: 100%;
+          display: block;
+        }
+      }
+
+      .card-footer {
+        display: flex;
+        align-items: center;
+        padding: 0 !important;
+        height: 15px;
+
+        svg {
+          font-size: 15px;
+        }
+
+        span {
+          font-size: 12px;
+          padding-left: 2px;
+
+        }
+      }
+    }
+
+    // .footer-btn {
+    //   Button {
+    //     height: 40px !important;
+    //     font-size: 12px;
+    //     line-height: 15px;
+
+    //   }
+    // }
+  }
+
+}

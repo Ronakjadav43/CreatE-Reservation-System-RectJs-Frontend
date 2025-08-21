@@ -1,0 +1,134 @@
+.time-line {
+  overflow: auto;
+  height: calc(100vh - 330px);
+  position: relative;
+
+  .rct-scroll {
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+  }
+
+  .rct-header-root {
+    background-color: #ff5722 !important;
+    position: sticky;
+    top: 30px;
+    z-index: 100;
+  }
+
+  .rct-sidebar {
+    background-color: #ff5722 !important;
+    text-align: center;
+  }
+
+  .rct-dateHeader {
+    span {
+      line-height: 14px;
+      text-align: center;
+    }
+  }
+
+  .rct-item {
+    border-radius: 10px;
+  }
+}
+
+.time-lines {
+  overflow: auto;
+  height: calc(100vh - 330px);
+  position: relative;
+
+  .rct-scroll {
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+  }
+
+  .rct-header-root {
+    background-color: #ff5722 !important;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+  }
+
+  .rct-sidebar {
+    background-color: #ff5722 !important;
+    text-align: center;
+  }
+
+  .rct-dateHeader {
+    span {
+      line-height: 14px;
+      text-align: center;
+    }
+  }
+
+  .rct-item {
+    border-radius: 10px;
+  }
+}
+
+.discount {
+  font-family: "Roboto", sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  color: #252f40;
+}
+
+.seats {
+  font-family: "Roboto", sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #67748e;
+}
+
+.timelineAmount {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  padding: 10px 0;
+
+  .timelineAmount-inner {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+    svg {
+      font-size: 18px;
+    }
+  }
+}
+
+.terms-conditions-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  svg {
+    font-size: 18px;
+  }
+}
+
+.custom-btn {
+  Button {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.4);
+    text-transform: capitalize;
+    font: inherit;
+
+    &:hover {
+      border: 1px solid #000;
+      background-color: #fff;
+    }
+  }
+}

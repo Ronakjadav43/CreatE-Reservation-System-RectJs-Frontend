@@ -1,0 +1,114 @@
+.history-main {
+  .history-button {
+    background-color: rgb(228, 168, 4);
+    border-radius: 30px;
+  }
+  .popup-inputs {
+    flex-direction: column;
+  }
+  .history-ammount {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  .header-chip {
+    font-family: "Roboto", sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: rgba(62, 39, 35, 0.87);
+    padding: 0 8px;
+    gap: 5px;
+    svg {
+      font-size: 16px;
+    }
+  }
+}
+
+.history-card {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  .history-card-text {
+    font-family: "Roboto", sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    /* identical to box height, or 187% */
+
+    letter-spacing: 0.15px;
+
+    color: rgba(62, 39, 35, 0.87);
+  }
+}
+.history-msg-text {
+  font-family: "Roboto", sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  letter-spacing: 0.4px;
+
+  color: rgba(62, 39, 35, 0.87);
+  margin: 20px 0 10px 0;
+}
+
+.history-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+  Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 30px;
+    font-family: "Roboto", sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #3e2723;
+  }
+}
+.history-list {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 10px;
+  .history-list-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    .history-ammount {
+      font-family: "Roboto", sans-serif !important;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+
+      letter-spacing: 0.4px;
+
+      color: rgba(62, 39, 35, 0.87);
+    }
+  }
+}

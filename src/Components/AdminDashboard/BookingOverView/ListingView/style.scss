@@ -1,0 +1,71 @@
+.filter-data {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.active {
+  background-color: #ef535099;
+  cursor: pointer;
+}
+
+.icon-box {
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.14),
+    0px 1px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3e27238a;
+  font-size: 24px;
+}
+
+.dates {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  .days-text {
+    // font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.387234px;
+    color: rgba(62, 39, 35, 0.7);
+  }
+
+  .date-pic {
+    border-color: #fff !important;
+
+    div:nth-child(1) {
+      font-family: "Roboto", sans-serif !important;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: -0.387234px;
+      color: rgba(62, 39, 35, 0.54);
+      width: 166px;
+      height: 40px;
+      background: #ffffff;
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2),
+        0px 2px 2px rgba(0, 0, 0, 0.14), 0px 1px 5px rgba(0, 0, 0, 0.12);
+      border-radius: 4px;
+      padding: 8px 12px;
+      gap: 10px;
+      border-color: #fff !important;
+    }
+  }
+}

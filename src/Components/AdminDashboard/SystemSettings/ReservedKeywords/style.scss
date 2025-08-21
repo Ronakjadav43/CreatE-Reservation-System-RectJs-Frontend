@@ -1,0 +1,19 @@
+.reserved-keywords {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  margin: auto;
+  .reserved-keywords-header {
+    font-family: "Roboto", sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #3e2723;
+  }
+}

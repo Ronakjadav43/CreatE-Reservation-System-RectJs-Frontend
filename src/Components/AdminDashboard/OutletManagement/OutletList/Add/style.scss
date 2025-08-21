@@ -1,0 +1,99 @@
+.user-form-dailog {
+  .css-uhb5lp {
+    max-width: 100% !important;
+  }
+
+  .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    max-width: 1000px;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  p {
+    font-weight: bold;
+  }
+
+  .add-btn {
+    background: #ef5350;
+    text-transform: uppercase;
+    width: 89px;
+    height: 36px;
+    background: #ef5350;
+    border-radius: 4px;
+    padding: 0px 16px;
+    gap: 10px;
+    font-weight: 500;
+
+    svg {
+      height: 18px;
+      width: 18px;
+      font-weight: bold;
+    }
+
+    &:hover {
+      background: #ef5350ed;
+    }
+  }
+
+  .close-btn {
+    color: #ef5350;
+    background: #ffffff;
+    text-transform: uppercase;
+    border-color: rgba(62, 39, 35, 0.2);
+    height: 36px;
+    border-radius: 4px;
+    padding: 0px 16px;
+    gap: 10px;
+    font-weight: 500;
+
+    svg {
+      height: 18px;
+      width: 18px;
+      font-weight: bold;
+    }
+
+    &:hover {
+      color: #ef5350;
+      background: #ffffff;
+      border-color: rgba(62, 39, 35, 0.7);
+    }
+  }
+
+  .switch span {
+    color: #ef5350;
+
+    .MuiSwitch-track {
+      background-color: #ef535096;
+    }
+  }
+
+  .update-box {
+    padding: 0 20px 0 10px;
+  }
+}
+
+.add-outlet-main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+
+  .add-outlet-list {
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    padding: 5px 11px;
+
+    &:nth-child(1),
+    &:nth-child(2),
+    &:nth-child(3),
+    &:nth-child(4),
+    &:nth-child(5),
+    &:nth-child(6) {
+      width: 50%;
+    }
+  }
+}

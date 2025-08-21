@@ -1,0 +1,55 @@
+.main-header {
+  background-color: #fff !important;
+  color: #61616199 !important;
+  box-shadow: unset !important;
+  height: 84px;
+
+  .header-text {
+    font-family: "Roboto", sans-serif !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.header {
+  min-height: 84px !important;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 100;
+
+  .logo {
+    width: 200px;
+    height: 100%;
+    margin: auto;
+    display: block;
+    padding: 5px 0;
+  }
+}
+
+.sidebar-icon svg {
+  color: #ef5350;
+}
+
+.active-menu {
+  color: #ef535042;
+}
+
+.css-1n2r1wo-MuiButtonBase-root-MuiListItemButton-root:hover,
+.css-1wa2ff3-MuiButtonBase-root-MuiListItemButton-root:hover {
+  background-color: #ff572233 !important;
+  font-weight: bold !important;
+}
+
+.active {
+  font-weight: bold !important;
+}
+
+.sidebar2-icon svg {
+  color: #ffffff;
+  background-color: #ef5350;
+  padding: 3px;
+  border-radius: 5px;
+}

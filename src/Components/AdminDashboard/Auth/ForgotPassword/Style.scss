@@ -1,0 +1,87 @@
+.forgotpassword-layout {
+  max-width: 1920px;
+  max-height: 1080px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+
+  .logo {
+    display: block;
+    width: 200px;
+    height: 74px;
+    position: fixed;
+    top: 63px;
+    left: 77px;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .forgotpassword-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .forgotpassword-header-text {
+      font-family: "Roboto", sans-serif !important;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 52px;
+      line-height: 62px;
+      letter-spacing: -2px;
+      color: #252f40;
+      margin: 0;
+    }
+
+    .forgotpassword-header-text1 {
+      font-family: "Roboto", sans-serif !important;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      color: #67748e;
+      margin-bottom: 63px;
+    }
+
+    .option {
+      display: flex;
+      align-items: center;
+      gap: 33px;
+      width: 445px;
+      height: 100px;
+      border: 1px solid #e8e8e8;
+      border-radius: 4px;
+
+      svg {
+        font-size: 85px;
+      }
+
+      .option-texts {
+        display: flex;
+        flex-direction: column;
+
+        .text {
+          font-family: "Roboto", sans-serif !important;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          display: flex;
+          align-items: center;
+          color: #252f40;
+        }
+      }
+    }
+
+    .mt_10 {
+      margin-top: 10px;
+    }
+  }
+}

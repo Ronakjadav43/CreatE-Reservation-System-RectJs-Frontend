@@ -1,0 +1,113 @@
+.codeverification-layout {
+  max-width: 1920px;
+  max-height: 1080px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+
+  .logo {
+    display: block;
+    width: 200px;
+    height: 74px;
+    position: fixed;
+    top: 63px;
+    left: 77px;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .codeverification-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 460px;
+    width: 100%;
+
+    .codeverification-header-text {
+      font-family: "Roboto", sans-serif !important;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 52px;
+      line-height: 62px;
+      letter-spacing: -2px;
+      color: #252f40;
+      margin: 0;
+      text-align: start;
+      width: 100%;
+    }
+
+    .codeverification-header-text1 {
+      font-family: "Roboto", sans-serif !important;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      color: #67748e;
+      text-align: start;
+      width: 100%;
+    }
+
+    .codeverification-inputs {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 46px;
+
+      .codeverification-input-box {
+        gap: 10px;
+      }
+
+      .codeverification-input-box input {
+        max-width: 54px !important;
+        width: 100% !important;
+        height: 70px !important;
+        background: #ffffff !important;
+        border: 1px solid #e8e8e8 !important;
+        border-radius: 4px !important;
+        margin-right: 0 !important;
+        padding: 0 !important;
+      }
+    }
+
+    .codeverification-links {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      width: 100%;
+      margin-top: 17px;
+
+      .received-text {
+        font-family: "Roboto", sans-serif !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        color: #67748e;
+      }
+
+      .re-send-link {
+        font-family: "Roboto", sans-serif !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        color: #17a1fa;
+      }
+    }
+  }
+}

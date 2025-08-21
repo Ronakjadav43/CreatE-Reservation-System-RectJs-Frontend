@@ -1,0 +1,54 @@
+.user-form-dailog {
+    h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    p {
+        font-weight: bold;
+    }
+    .add-btn {
+        background: #EF5350;
+        text-transform: uppercase;
+        height: 36px;
+        background: #EF5350;
+        border-radius: 4px;
+        padding: 0px 16px;
+        gap: 10px;
+        font-weight: 500;
+        svg {
+            height: 18px;
+            width: 18px;
+            font-weight: bold;
+        }
+        &:hover {
+            background: #ef5350ed;
+        }
+    }
+    .close-btn {
+        color: #EF5350;
+        background: #FFFFFF;
+        text-transform: uppercase;
+        border-color: rgba(62, 39, 35, 0.2);
+        height: 36px;
+        border-radius: 4px;
+        padding: 0px 16px;
+        gap: 10px;
+        font-weight: 500;
+        svg {
+            height: 18px;
+            width: 18px;
+            font-weight: bold;
+        }
+        &:hover {
+            background: #FFFFFF;
+            border-color: rgba(62, 39, 35, 0.2);
+        }
+    }
+    .switch span {
+        color: #EF5350;
+
+        .MuiSwitch-track {
+            background-color: #ef535096;
+        }
+    }
+}

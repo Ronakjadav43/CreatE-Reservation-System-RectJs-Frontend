@@ -1,0 +1,138 @@
+.resetpassword-layout {
+  max-width: 1920px;
+  max-height: 1080px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-image: url("../../../../../public/assets/images/resetpasswordDB.png");
+  background-repeat: no-repeat;
+  //   background-size: 100% 100%;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  //   padding-left: 260px;
+
+  .logo {
+    display: block;
+    width: 200px;
+    height: 74px;
+    position: fixed;
+    top: 63px;
+    left: 77px;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .resetpassword-inner {
+    display: flex;
+    padding: 0 260px;
+
+    .resetpassword-main {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 520px;
+      padding: 10px;
+
+      .resetpassword-header-text {
+        font-family: "Roboto", sans-serif !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 62px;
+        letter-spacing: -2px;
+        color: #252f40;
+        margin: 0;
+      }
+
+      .resetpassword-header-text1 {
+        font-family: "Roboto", sans-serif !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #67748e;
+      }
+
+      .resetpassword-input-div {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 35px;
+        width: 100%;
+
+        .resetpassword-input {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+
+          .resetpassword-input-label {
+            font-family: "Roboto", sans-serif !important;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            color: #252f40;
+          }
+
+          .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+            max-width: 520px;
+            width: 100vw;
+            height: 60px;
+            background: #ffffff;
+            border: 1px solid #e8e8e8;
+            border-radius: 4px;
+
+            div {
+              width: 100%;
+              height: 100%;
+            }
+          }
+
+          .error_text {
+            font-family: "Roboto", sans-serif !important;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            color: #f03038;
+          }
+        }
+      }
+
+      .resetpassword-btn {
+        font-family: "Roboto", sans-serif !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.2px;
+        color: #ffffff;
+        justify-content: center;
+        padding: 16px;
+        width: 160px;
+        height: 55px;
+        background: #9747ff;
+        border-radius: 9px;
+        margin-top: 35px;
+      }
+    }
+  }
+}
+
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root {
+  width: 19px;
+  height: 19px;
+  border: 1px solid #67748e;
+  border-radius: 5px;
+  padding: 0;
+}

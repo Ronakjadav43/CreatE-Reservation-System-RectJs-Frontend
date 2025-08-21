@@ -1,0 +1,15 @@
+.integrated--table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 40px;
+
+    .integrated-header {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        color: #3E2723;
+    }
+}

@@ -1,0 +1,38 @@
+.api-col {
+    position: relative;
+
+    .api-log {
+        display: block;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 150px;
+        cursor: pointer;
+    }
+       
+    .tooltip {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 500px;
+        max-height: 500px;
+        overflow: auto;
+        background-color: #fff;
+        border: 1px solid #000;
+        border-radius: 5px;
+        z-index: 9999;
+        padding: 5px;
+        line-height: 25px;
+        font-size: 14px;
+    
+    
+    
+    
+    }
+    &:hover .tooltip {
+        display: block;
+    }
+
+}
+

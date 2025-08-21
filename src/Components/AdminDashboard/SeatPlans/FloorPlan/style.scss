@@ -1,0 +1,185 @@
+.indoor {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+
+  .indoor-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 10px;
+
+    .indoor-header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-grow: 1;
+
+      .switch {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+    }
+  }
+  .floor-plan-main {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-between;
+    gap: 15px;
+
+    .floor-plan {
+      border: 5px solid #ef5350;
+      margin: auto;
+      position: relative;
+      width: 1250px;
+      max-width: 1250px;
+      min-width: 1250px;
+      height: 610px;
+      background-size: 100% 100%;
+      display: flex;
+      flex-wrap: wrap;
+      cursor: pointer;
+
+      .table-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+
+        svg {
+          display: block;
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+            .table-infos {
+              display: flex;
+              flex-direction: column;
+              flex-wrap: wrap;
+              width: 100%;
+              position: absolute;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+              height: 100%;
+              align-items: center;
+              justify-content: center;
+      
+              .info-inner {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 5px;
+      
+                .info-text {
+                  font-family: "Roboto", sans-serif !important;
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 11px;
+                  line-height: 15px;
+                  text-align: center;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                }
+      
+                .info-chip {
+                  width: 44px;
+                  height: 10px;
+                  background: #ffffff;
+                  border: 0.5px solid #d9d9d9;
+                  border-radius: 4px;
+                  font-family: "Roboto", sans-serif !important;
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 8px;
+                  line-height: 11px;
+                  text-align: center;
+                  letter-spacing: -0.387234px;
+                  color: #000000;
+                }
+      
+                .times {
+                  font-family: "Roboto", sans-serif !important;
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 5px;
+                  line-height: 7px;
+                  text-align: center;
+                  letter-spacing: -0.387234px;
+                  display: flex;
+                  justify-content: center;
+                }
+              }
+            }
+    }
+    .floor-plan-right {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      max-width: 200px;
+      width: 100%;
+      height: 610px;
+      gap: 20px;
+    }
+  }
+
+  .circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: move;
+    box-shadow: unset;
+    border-radius: 100%;
+    word-break: break-all;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    background-color: transparent;
+  }
+
+  .square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: move;
+    box-shadow: unset;
+    word-break: break-all;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    background-color: transparent;
+  }
+
+  .rectangle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: move;
+    box-shadow: unset;
+    word-break: break-all;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    background-color: transparent;
+  }
+}
+
+.active {
+  background-color: #ef535099;
+  cursor: pointer;
+}

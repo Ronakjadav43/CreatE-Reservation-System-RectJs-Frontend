@@ -1,0 +1,126 @@
+.user-form-dailog {
+  h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  p {
+    font-weight: bold;
+  }
+  .add-btn {
+    background: #ef5350;
+    text-transform: uppercase;
+    height: 36px;
+    background: #ef5350;
+    border-radius: 4px;
+    padding: 0px 16px;
+    gap: 10px;
+    font-weight: 500;
+    svg {
+      height: 18px;
+      width: 18px;
+      font-weight: bold;
+    }
+    &:hover {
+      background: #ef5350ed;
+    }
+  }
+  .close-btn {
+    color: #ef5350;
+    background: #ffffff;
+    text-transform: uppercase;
+    border-color: rgba(62, 39, 35, 0.2);
+    height: 36px;
+    border-radius: 4px;
+    padding: 0px 16px;
+    gap: 10px;
+    font-weight: 500;
+    svg {
+      height: 18px;
+      width: 18px;
+      font-weight: bold;
+    }
+    &:hover {
+      background: #ffffff;
+      border-color: rgba(62, 39, 35, 0.2);
+    }
+  }
+  .switch span {
+    color: #ef5350;
+
+    .MuiSwitch-track {
+      background-color: #ef535096;
+    }
+  }
+}
+
+.add_meal_type {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 10px;
+
+  .meal_type_inner {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    .add_meal_type_box {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      padding: 5px 11px;
+    }
+  }
+}
+
+.upload-img {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  img {
+    width: 80px;
+    height: 80px;
+    display: block;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 4px 0px #0000007a;
+  }
+  .upload-btn {
+    color: #fff;
+    text-transform: uppercase;
+    height: 36px;
+    background: #ef5350;
+    border-radius: 4px;
+    padding: 0px 16px;
+    gap: 10px;
+    font-weight: 500;
+    width: 100%;
+    border: unset;
+  }
+}
+
+.add-pre-order {
+  display: block;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 10px;
+
+  .add-pre-order-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+
+    .add-pre-order-box {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.main-filter {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+
+  .filter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .list {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+}
+
+.filter-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  .filter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .list {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 18px;
+      font-weight: 400;
+      padding-left: 15px;
+    }
+  }
+}
+
+.select-filter .list {
+  color: #fe4838;
+}

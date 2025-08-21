@@ -1,0 +1,25 @@
+.user-group-slider {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px;
+  /* identical to box height, or 267% */
+
+  letter-spacing: 2px;
+}
+
+.tab-scroller {
+  overflow: auto;
+  height: calc(100vh - 360px);
+  background: #ffffff;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.customer-headers {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

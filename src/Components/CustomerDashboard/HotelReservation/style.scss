@@ -1,0 +1,114 @@
+.main-iframe {
+  width: 100%;
+  max-width: 1200px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: auto;
+  .main-div {
+    max-width: 1250px;
+    width: 100%;
+    height: calc(100vh - 148px);
+    max-height: 932px;
+    border-radius: 14px;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+
+    .main {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      box-shadow: unset !important;
+
+      .main-body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .main-header {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 170px;
+          border-bottom: 1px solid #e5e4e4;
+          .stepper {
+            width: 100%;
+            max-width: 850px;
+            svg {
+              font-size: 34px;
+              text {
+                font-size: 14px;
+                font-weight: 700;
+              }
+            }
+            .MuiStepLabel-alternativeLabel {
+              font-size: 12px;
+              font-weight: 600;
+              line-height: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .main-iframe {
+    .main-div {
+      width: 100%;
+      height: 100vh;
+      border-radius: 0px;
+      max-height: unset;
+      .main {
+        .main-body {
+          .main-header {
+            min-height: 100px;
+            border-bottom: unset;
+            .stepper {
+              svg {
+                font-size: 32px;
+                text {
+                  font-size: 12px;
+                  font-weight: 700;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .MuiStepLabel-alternativeLabel {
+    display: none;
+  }
+}
+
+// .Mui-completed,
+// .Mui-active {
+//   color: #5C231C !important;
+// }
+
+// .step-btn {
+//   span {
+//     span {
+//       svg {
+//         font-size: 34px;
+
+//         text {
+//           font-size: 14px;
+//           font-weight: 700;
+//         }
+//       }
+
+//     }
+
+//     &:nth-child(2) span {
+//       font-weight: 600 !important;
+//     }
+//   }
+// }

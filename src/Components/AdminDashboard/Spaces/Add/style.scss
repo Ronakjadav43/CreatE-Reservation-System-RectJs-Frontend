@@ -1,0 +1,33 @@
+.user-form-dailog {
+    h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    p {
+        font-weight: bold;
+    }
+    .add-btn {
+        background: #EF5350;
+        text-transform: uppercase;
+        &:hover {
+            background: #ef5350ed;
+        }
+    }
+    .close-btn {
+        color: #EF5350;
+        background: #FFFFFF;
+        text-transform: uppercase;
+        border-color: rgba(62, 39, 35, 0.2);
+        &:hover {
+            background: #FFFFFF;
+            border-color: rgba(62, 39, 35, 0.2);
+        }
+    }
+    .switch span {
+        color: #EF5350;
+
+        .MuiSwitch-track {
+            background-color: #ef535096;
+        }
+    }
+}

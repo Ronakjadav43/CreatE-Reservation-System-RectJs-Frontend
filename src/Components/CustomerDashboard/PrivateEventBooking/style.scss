@@ -1,0 +1,354 @@
+.finalreservation-layout {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto;
+  border-radius: 8px !important;
+  gap: 20px;
+  background-color: #ff57221a !important;
+  padding-bottom: 30px;
+  overflow: auto !important;
+  height: calc(100vh - 30px);
+  max-width: 1000px;
+
+  .reservation-inner {
+    // width: 100%;
+    // max-width: 800px;
+    // display: flex;
+    // flex-direction: column;
+    // gap: 30px;
+
+    .conditions-text {
+      margin: 0;
+    }
+
+    .mobile-select {
+      max-width: 140px;
+    }
+
+    .conditions-form {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+
+      .input-box {
+        display: flex;
+        padding: 10px;
+        align-items: center;
+
+        div:nth-child(1) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.w-47 {
+  width: 47% !important;
+}
+
+.w-60 {
+  width: 60% !important;
+}
+
+.w-34 {
+  width: 34% !important;
+}
+
+.w_13 {
+  width: 13.8% !important;
+}
+
+.w_14 {
+  width: 14.4% !important;
+}
+
+.w_16 {
+  width: 15.8% !important;
+}
+
+.w-96 {
+  width: 96% !important;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.pad {
+  padding: 10px !important;
+}
+
+.pl-20 {
+  padding-left: 20px !important;
+}
+
+.cvv {
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+}
+
+.main-iframe {
+  width: 100%;
+  max-width: 1200px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: auto;
+  .main-div {
+    max-width: 1250px;
+    width: 100%;
+    height: calc(100vh - 148px);
+    max-height: 932px;
+    border-radius: 14px;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+
+    .main {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      box-shadow: unset !important;
+
+      .main-body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .privateEvent-booking {
+          width: 100%;
+          max-width: 1313px;
+          display: flex;
+          flex-direction: column;
+          /* padding: 26px 0; */
+          margin: 26px auto 0;
+          height: calc(100vh - 50px);
+          overflow: auto;
+
+          .condition-info {
+            background-color: #fff1e4;
+            max-width: 1320px;
+            padding: 15px;
+            // margin: 20px auto 0;
+            // width: 100%;
+            .conditions-info-text {
+              margin: 0;
+              font-size: 18px;
+              font-weight: 700;
+            }
+            .conditions {
+              display: flex;
+              flex-direction: column;
+              gap: 5px;
+
+              .conditions-text-inner {
+                font-size: 16px;
+                font-weight: 400;
+                color: #000000;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                svg {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+
+          .conditions-form {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            max-width: 1000px;
+            margin: auto;
+
+            .w-16 {
+              width: 16.66% !important;
+            }
+
+            .input-box {
+              display: flex;
+              width: 50%;
+
+              .input-box-inner {
+                width: 100%;
+                display: flex;
+                padding: 10px 20px;
+                align-items: center;
+                // width: 50% !important;
+                & > div:nth-child(1) {
+                  width: 100%;
+                }
+                div input {
+                  width: 100%;
+                }
+                label {
+                  display: flex;
+                  align-items: flex-start;
+                }
+              }
+            }
+
+            .footer-btn {
+              width: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              padding: 10px 20px;
+              Button {
+                width: 127px;
+                height: 50px;
+                font-size: 16px;
+                font-weight: 500;
+
+                &:nth-child(2) {
+                  max-width: 175px !important;
+                  min-width: 127px !important;
+                  width: auto;
+                  height: 50px !important;
+                  font-weight: 600 !important;
+                }
+              }
+
+              Button:hover {
+                color: #5c231c;
+                background-color: #dba47480 !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .main-iframe {
+    .main-div {
+      width: 100%;
+      height: 100vh;
+      border-radius: 0px;
+      max-height: unset;
+      .main {
+        .main-body {
+          .privateEvent-booking {
+            height: calc(100vh - 50px);
+
+            .condition-info {
+              padding: 20px;
+              .conditions-info-text {
+                font-size: 12px;
+              }
+              .conditions {
+                .conditions-text {
+                  font-size: 12px;
+
+                  svg {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+
+            .conditions-form {
+              .input-box {
+                width: 100% !important;
+
+                .input-box-inner label span {
+                  font-size: 12px !important;
+                }
+              }
+            }
+            .footer-btn {
+              Button {
+                width: 130px;
+                height: 40px;
+                font-size: 12px !important;
+
+                &:nth-child(2) {
+                  max-width: 130px !important;
+                  min-width: 130px !important;
+                  height: 40px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .MuiStepLabel-alternativeLabel {
+    display: none;
+  }
+}
+
+:root {
+  --size-bezel: 0.5rem;
+}
+
+.input {
+  position: relative;
+
+  &__label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: calc(var(--size-bezel) * 0.75) calc(var(--size-bezel) * 0.5);
+    margin: calc(var(--size-bezel) * 0.75 + 3px) calc(var(--size-bezel) * 0.5);
+    background: pink;
+    white-space: nowrap;
+    transform: translate(0, 0);
+    transform-origin: 0 0;
+    background: var(--color-background);
+    transition: transform 120ms ease-in;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+  &__field {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    padding: calc(var(--size-bezel) * 1.5) var(--size-bezel);
+    color: currentColor;
+    background: transparent;
+    border-radius: var(--size-radius);
+    height: 41px;
+
+    &:focus,
+    &:not(:placeholder-shown) {
+      & + .input__label {
+        transform: translate(0.25rem, -65%) scale(0.8);
+        color: rgba(0, 0, 0, 0.6);
+        background-color: #fff;
+      }
+    }
+  }
+}
+
+option {
+  font-weight: normal;
+  display: block;
+  white-space: nowrap;
+  min-height: 37px;
+  padding: 6px 16px 1px;
+}

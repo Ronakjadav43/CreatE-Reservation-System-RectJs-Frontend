@@ -1,0 +1,84 @@
+.ivrs-layout {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  overflow: auto;
+  height: calc(100vh - 327px);
+  .ivrs-detail {
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    .ivrs-row {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 5px;
+      span {
+        display: flex;
+        width: 50%;
+        legend {
+          display: none !important;
+        }
+        &:nth-child(1) {
+          width: 300px;
+          font-weight: 700;
+        }
+        &:nth-child(2) {
+          width: 100%;
+          div {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .footer-btn {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+  .ivrs-main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    gap: 10px;
+    .ivrsheader-text {
+      width: 100%;
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    .ivrs-card {
+      width: 32%;
+      min-width: 300px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .ivrs-card-text {
+        font-size: 20px;
+        font-weight: 500;
+      }
+      .dates-inner {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        overflow: auto;
+        font-size: 18px;
+        font-weight: 400;
+        gap: 5px;
+      }
+    }
+  }
+  .view-btn Button {
+    width: auto !important;
+    height: 36px !important;
+    font-size: 15px !important;
+    gap: 5px !important;
+  }
+}
